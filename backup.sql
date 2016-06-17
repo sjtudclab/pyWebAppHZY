@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 5.7.9, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.11, for osx10.10 (x86_64)
 --
--- Host: 127.0.0.1    Database: pyWebInfo
+-- Host: localhost    Database: pyWebInfo
 -- ------------------------------------------------------
 -- Server version	5.7.11
 
@@ -412,4 +412,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-06-17 14:23:23
+-- Dump completed on 2016-06-17 14:31:33
