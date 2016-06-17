@@ -12,3 +12,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
 ]
+环境配置与运行:
+1. install django
+https://docs.djangoproject.com/en/1.9/topics/install/#installing-official-release
+    1. $ git clone git://github.com/django/django.git
+    2. pip install -e django/
+    3. pip install django-cors-headers
+    4.apt-get install python-mysqldb
+2. pyWebAppHZY/arch/webApp$: python manage.py runserver(run django)
+3. 检测数据库和model是否一致 python manage.py makemigrations
+4. 同步数据库与model python manage.py migrate
